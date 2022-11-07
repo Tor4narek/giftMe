@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.7) ;
+    box-shadow: 0px 5px 19px rgb(0 0 0 / 13%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px!important;
+    z-index: 2;
+    border: 2px solid white;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="name"] {
+    margin-bottom: 10px;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-control {
+    border-radius: 16px;
+}
+.intro {
+    font-size: 20px;
+    color: #494949;
+}
+.smalltext {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+}
+#confetti{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1
+}
+.btn-primary {
+    font-size: 15px;
+    background-color: #27BEFF;
+    border-color: #70d2ff;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.mb-4 {
+    margin-top:15px;
+}
+.description {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#floatingInput {
+    border-radius: 10px;
+}
+.form-floating>label {
+    left: 0;
+    color: #494949;
+}
+.animate__fadeIn {
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+.animate__fadeInUp {
+    animation-duration: 1.3s;
+}
+#floatingInput2 {
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.fa-person-rays {
+    margin-right: 10px;
+}
+.fa-envelope {
+    margin-right: 10px;
+}
+.label {
+    color: #aaaaaa;
+}
+.text-muted {
+    color: #6c757d;
+    font-size: 12px!important;
+    margin-top: 30px!important;
+}
+.form-signin input[type="password"] {
+    border-radius: 16px;
+    margin-top: 10px;
+}
+.fa-user-large {
+    margin-right: 10px;
+}
+.fa-key {
+    margin-right: 10px;
+}
+.fa-cake-candles {
+    margin-right: 10px;
+}
+
